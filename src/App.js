@@ -35,7 +35,7 @@ class App extends Component {
         <BrowserRouter>
           <Route exact path="/" component={Home} />
           <Route exact path="/Bisection" component={Bisection} />
-          <Route exact path="/FalsePos" component={FalsePos} />
+          {/* <Route exact path="/FalsePos" component={FalsePos} />
           <Route exact path="/OnePoint" component={OnePoint} />
           <Route exact path="/Secant" component={Secant} />
           <Route exact path="/NewtonRaphson" component={NewtonRaphson} />
@@ -46,7 +46,7 @@ class App extends Component {
           <Route exact path="/Cholesky" component={Cholesky} />
           <Route exact path="/LUDecompose" component={LUDecompose} />
           <Route exact path="/GaussSeidel" component={GaussSeidel} />
-          <Route exact path="/Jacobi" component={Jacobi} />
+          <Route exact path="/Jacobi" component={Jacobi} /> */}
         </BrowserRouter>
         </div>
       </div>
