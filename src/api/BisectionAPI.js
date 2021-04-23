@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const math = require("mathjs");
-
 /**
  * @swagger
  *  tags:
