@@ -72,7 +72,7 @@ router.post("/api/BisectionAPI", (req, res) => {
       xm: xm,
       Error: check,
     });
-  } while (check > 0.000001 && n < 25);
+  } while (check > 0.00000001 && n < 25);
 
   res.json({
     tmpArr: tmpArr,
