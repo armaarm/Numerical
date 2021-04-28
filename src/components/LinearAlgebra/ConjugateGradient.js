@@ -146,7 +146,7 @@ export default function ConjugateGradient() {
           <p></p>
           <button value="Submit" disabled={btnState} onClick={handleSubmit}>
             Find the Solution
-          </button>
+          </button> 
 
           <h2>Output</h2>
           {output.map((item, index) => (
