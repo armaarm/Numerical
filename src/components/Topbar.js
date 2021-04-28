@@ -19,7 +19,7 @@ const Topbar = () => {
     const LinearMenuToggle = () => setLinearMenuOpen((prevState) => !prevState);
 
     return ( 
-        <div>
+        <div class = "menu ul li menu ul li ul">
         <Navbar className = "nav-color" variant = "dark" >
         <Navbar.Brand href = "/" > Home 
         </Navbar.Brand>{" "} 
